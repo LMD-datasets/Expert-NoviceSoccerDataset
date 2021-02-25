@@ -45,5 +45,6 @@ The total number of samples is 288 (= eight players * nine actions * four times)
 |pc10, pc11, pc12 (X, Y, Z axis)| Pupil Center (Right eye) | Same as above |
 |pd0, pd1 (Left eye, Right eye)| Pupil Diameter | The pupil diameter is measured in mm and sent separately for each eye. |
 
+![Image 2](EyeTrackingData.png)
 
 ## Motion data
