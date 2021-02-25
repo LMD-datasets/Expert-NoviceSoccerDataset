@@ -35,9 +35,9 @@ The total number of samples is 288 (= eight players * nine actions * four times)
 
 | `<feature>`| Name | Description | 
 | :---- |:------| :------| 
-|ac0, ac1, ac2 (X-Y-Z coordinate system)| Accelerometer data | The accelerometer data indicates the rotation of the glasses [m/s^2].|
-|gd00, gd01, gd02 (X-Y-Z coordinate system)| Gaze direction (left eye) | The gaze direction is a unit vector with origo in the pupil center. |
-|gd10, gd11, gd12 (X-Y-Z coordinate system)| Gaze direction (right eye) | The gaze direction is a unit vector with origo in the pupil center. |
+|ac0, ac1, ac2 (X, Y, Z axis)| Accelerometer data | The accelerometer data indicates the rotation of the glasses [m/s^2].|
+|gd00, gd01, gd02 (X, Y, Z axis)| Gaze direction (left eye) | The gaze direction is a unit vector with origo in the pupil center. |
+|gd10, gd11, gd12 (X, Y, Z axis)| Gaze direction (right eye) | The gaze direction is a unit vector with origo in the pupil center. |
 |Player4| 0 | 
 |Player5| 36 | 
 |Player6| 36 |
