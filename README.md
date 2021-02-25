@@ -33,10 +33,10 @@ The total number of samples is 288 (= eight players * nine actions * four times)
   -  `<feature>` : Vectors of eye tracking data in the following table.
 
 
-| `<feature>`| Description | 
-| :----: |:------:| 
-|ac0, ac1, ac2 (X-Y-Z coordinate system)| Accelerometer data that indicates the rotation of the glasses [m/s^2].|
-|gd00, gd01, gd02| 1 | 
+| `<feature>`| Name | Description | 
+| :----: |:------:| :------:| 
+|ac0, ac1, ac2 (X-Y-Z coordinate system)| Accelerometer data | The accelerometer data indicates the rotation of the glasses [m/s^2].|
+|gd00, gd01, gd02 (X-Y-Z coordinate system)| Gaze direction | The gaze direction is a unit vector with origo in the pupil center. |
 |Player3| 24 | 
 |Player4| 0 | 
 |Player5| 36 | 
