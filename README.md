@@ -14,6 +14,23 @@ Y. Akamatsu, K. Maeda, T. Ogawa, and M. Haseyama, “Classification of Expert-no
 | # Novice level samples  | 35 | 35 | 12 | 36 | 0 | 0 | 1 | 0 | 119 |
 | # All samples  | 36 | 36 | 36 | 36 | 36 | 36 | 36 | 36 | 288 |
 
+
+- Player1-4 : Novice players
+- Player5-8 : Expert players (more than 10 years of soccer experience)
+
+The total number of samples is 288 (= eight players * nine actions * four times).
+
 ## Eye tracking data
+- EyeTrackingData/Player`<player index>`/S`<sample index>`/`<feature>`_vec.csv
+  -  `<player index>` : 1-8
+  -  `<sample index>` : 01-04 (Penalty kick), 05-08 (Free kick), 09-12 (Direct shot), 13-16 (Shot from a cross), 17-20 (Volley), 21-24 (Dribble (long)), 25-28 (Dribble (short)), 29-32 (Dribble (straight)), 33-36 (Juggling)
+  -  `<feature>` : Vectors of eye tracking data in the following table.
+
+
+|       |Player1|Player2|Player3|Player4|Player5|Player6|Player7|Player8|All players|
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| # Expert level samples | 1 | 1 | 24 | 0 | 36 | 36 | 35 | 36 | 169 |
+| # Novice level samples  | 35 | 35 | 12 | 36 | 0 | 0 | 1 | 0 | 119 |
+| # All samples  | 36 | 36 | 36 | 36 | 36 | 36 | 36 | 36 | 288 |
 
 ## Motion data
