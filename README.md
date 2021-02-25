@@ -14,6 +14,17 @@ Y. Akamatsu, K. Maeda, T. Ogawa, and M. Haseyama, “Classification of Expert-no
 | # Novice level samples  | 35 | 35 | 12 | 36 | 0 | 0 | 1 | 0 | 119 |
 | # All samples  | 36 | 36 | 36 | 36 | 36 | 36 | 36 | 36 | 288 |
 
+|       | # Expert level samples | # Novice level samples | # All samples  |
+| ------------- | ------------- | ------------- | ------------- | 
+|Player1| 1 | 35 | 36 |
+|Player2| 1 | 35 | 36 |
+|Player3| 24 | 12 | 36 |
+|Player4| 0 | 36 | 36 |
+|Player5| 36 | 0 | 36 |
+|Player6| 36 | 0 | 36 |
+|Player7| 35 | 1 | 36 |
+|Player8| 36 | 0 | 36 |
+|All players| 169 | 119 | 288 |
 
 - Player1-4 : Novice players
 - Player5-8 : Expert players (more than 10 years of soccer experience)
