@@ -7,22 +7,24 @@ Y. Akamatsu, K. Maeda, T. Ogawa, and M. Haseyama, “Classification of Expert-no
 ![Image 1](Experiment.png)
 
 ## Players
+
+The total number of samples is 288 (= eight players * nine actions * four times).
+
 |       | # Expert level samples | # Novice level samples | # All samples  |
-| ------------- | ------------- | ------------- | ------------- | 
-|Player 1| 1 | 35 | 36 |
-|Player 2| 1 | 35 | 36 |
-|Player 3| 24 | 12 | 36 |
-|Player 4| 0 | 36 | 36 |
-|Player 5| 36 | 0 | 36 |
-|Player 6| 36 | 0 | 36 |
-|Player 7| 35 | 1 | 36 |
-|Player 8| 36 | 0 | 36 |
+| :----: |:------:| :------:| :-----: |
+|Player1| 1 | 35 | 36 |
+|Player2| 1 | 35 | 36 |
+|Player3| 24 | 12 | 36 |
+|Player4| 0 | 36 | 36 |
+|Player5| 36 | 0 | 36 |
+|Player6| 36 | 0 | 36 |
+|Player7| 35 | 1 | 36 |
+|Player8| 36 | 0 | 36 |
 |All players| 169 | 119 | 288 |
 
 - Player1-4 : Novice players
 - Player5-8 : Expert players (more than 10 years of soccer experience)
 
-The total number of samples is 288 (= eight players * nine actions * four times).
 
 ## Eye tracking data
 - EyeTrackingData/Player`<player index>`/S`<sample index>`/`<feature>`_vec.csv
@@ -31,10 +33,16 @@ The total number of samples is 288 (= eight players * nine actions * four times)
   -  `<feature>` : Vectors of eye tracking data in the following table.
 
 
-|       |Player1|Player2|Player3|Player4|Player5|Player6|Player7|Player8|All players|
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| # Expert level samples | 1 | 1 | 24 | 0 | 36 | 36 | 35 | 36 | 169 |
-| # Novice level samples  | 35 | 35 | 12 | 36 | 0 | 0 | 1 | 0 | 119 |
-| # All samples  | 36 | 36 | 36 | 36 | 36 | 36 | 36 | 36 | 288 |
+| `<feature>`| Description | 
+| :----: |:------:| 
+|ac0, ac1, ac2 (X-Y-Z coordinate system)| Accelerometer data that indicates the rotation of the glasses [m/s^2].|
+|gd00, gd01, gd02| 1 | 
+|Player3| 24 | 
+|Player4| 0 | 
+|Player5| 36 | 
+|Player6| 36 |
+|Player7| 35 | 
+|Player8| 36 |
+|All players| 169 |
 
 ## Motion data
