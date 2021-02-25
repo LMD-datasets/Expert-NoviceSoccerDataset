@@ -35,12 +35,12 @@ The total number of samples is 288 (= eight players * nine actions * four times)
 
 | `<feature>`| Name | Description | 
 | :---- |:------| :------| 
-|ac0, ac1, ac2 (X, Y, Z axis)| Accelerometer data | The accelerometer data indicates the rotation of the glasses [m/s^2].|
-|gd00, gd01, gd02 (X, Y, Z axis)| Gaze direction (left eye) | The gaze direction is a unit vector with origin in the pupil center. |
-|gd10, gd11, gd12 (X, Y, Z axis)| Gaze direction (right eye) | The gaze direction is a unit vector with origin in the pupil center. |
-|gp0, gp1 (X, Y axis)| Gaze position | The gaze position is the position on the scene camera image where the gaze will be projected. Top left corner is (0,0), bottom right corner is (1,1).|  
-|Player5| 36 | 
-|Player6| 36 |
+|ac0, ac1, ac2 (X, Y, Z axis)| Accelerometer Data | The accelerometer data indicates the rotation of the glasses. The accelerometer data has the unit meter per second squared [m/s2]. |
+|gd00, gd01, gd02 (X, Y, Z axis)| Gaze Direction (Left eye) | The gaze direction is a unit vector with origin in the pupil center. |
+|gd10, gd11, gd12 (X, Y, Z axis)| Gaze Direction (Right eye) | The gaze direction is a unit vector with origin in the pupil center. |
+|gp0, gp1 (X, Y axis)| Gaze Position | The gaze position is the position on the scene camera image where the gaze will be projected. Top left corner is (0,0), bottom right corner is (1,1).|  
+|gp30, gp31, gp32 (X, Y, Z axis)| Gaze Position 3d | GazePosition3d is the 3D position, in mm, relative to the scene camera where the gaze is focused.| 
+|gy0, gy1, gy2 (X, Y, Z axis)| Gyroscope Data | The gyroscope data indicates the rotation of the glasses. The gyroscope data has the unit degrees per second [°/s].|
 |Player7| 35 | 
 |Player8| 36 |
 |All players| 169 |
