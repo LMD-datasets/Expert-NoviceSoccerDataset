@@ -35,13 +35,14 @@ The total number of samples is 288 (= eight players * nine actions * four times)
 
 | `<feature>`| Name | Description | 
 | :---- |:------| :------| 
-|ac0, ac1, ac2 (X, Y, Z axis)| Accelerometer Data | The accelerometer data indicates the rotation of the glasses. The accelerometer data has the unit meter per second squared [m/s2]. |
+|ac0, ac1, ac2 (X, Y, Z axis)| Accelerometer Data | The accelerometer data indicates the rotation of the glasses. The accelerometer data has the unit meter per second squared [m/s^2]. |
 |gd00, gd01, gd02 (X, Y, Z axis)| Gaze Direction (Left eye) | The gaze direction is a unit vector with origin in the pupil center. |
 |gd10, gd11, gd12 (X, Y, Z axis)| Gaze Direction (Right eye) | The gaze direction is a unit vector with origin in the pupil center. |
 |gp0, gp1 (X, Y axis)| Gaze Position | The gaze position is the position on the scene camera image where the gaze will be projected. Top left corner is (0,0), bottom right corner is (1,1).|  
 |gp30, gp31, gp32 (X, Y, Z axis)| Gaze Position 3d | GazePosition3d is the 3D position, in mm, relative to the scene camera where the gaze is focused.| 
 |gy0, gy1, gy2 (X, Y, Z axis)| Gyroscope Data | The gyroscope data indicates the rotation of the glasses. The gyroscope data has the unit degrees per second [°/s].|
-|Player7| 35 | 
+|pc00, pc01, pc02 (X, Y, Z axis)| Pupil Center (Left eye) | The property pupil center is specified in 3D coordinates with origin in the scenecam.  The value is sent separately for each eye and the coordinates are in mm.|
+|pc10, pc11, pc12 (X, Y, Z axis)| Pupil Center (Right eye) | The property pupil center is specified in 3D coordinates with origin in the scenecam.  The value is sent separately for each eye and the coordinates are in mm.|
 |Player8| 36 |
 |All players| 169 |
 
