@@ -53,4 +53,4 @@ The total number of samples is 288 (= eight players * nine actions * four times)
   - `<player index>` : 1-8
   - `<sample index>` : 01-04 (Penalty kick), 05-08 (Free kick), 09-12 (Direct shot), 13-16 (Shot from a cross), 17-20 (Volley), 21-24 (Dribble (long)), 25-28 (Dribble (short)), 29-32 (Dribble (straight)), 33-36 (Juggling)
   - S`<sample index>`.txt : Feature values corresponding to timestamp. A text file includes a matrix (timestamp * kinds of features).
-- MotionData/feature_info.csv : 
+- MotionData/feature_info.csv : Feature names included in motion data.
