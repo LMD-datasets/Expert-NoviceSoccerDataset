@@ -3,7 +3,7 @@
 The dataset for the following paper:
 Y. Akamatsu, K. Maeda, T. Ogawa, and M. Haseyama, “Classification of Expert-novice Level Using Eye Tracking and Motion Data via Conditional Multimodal Variational Autoencoder,” IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2021 (accepted for publication).
 
-## Nine actions in our experiment
+## Nine Actions in Our Experiment
 ![Image 1](Experiment.png)
 
 ## Players
@@ -26,7 +26,7 @@ The total number of samples is 288 (= eight players * nine actions * four times)
 - Player5-8 : Expert players (more than 10 years of soccer experience)
 
 
-## Eye tracking data
+## Eye Tracking Data
 - EyeTrackingData/Player`<player index>`/S`<sample index>`/`<feature>`_vec.csv
   -  `<player index>` : 1-8
   -  `<sample index>` : 01-04 (Penalty kick), 05-08 (Free kick), 09-12 (Direct shot), 13-16 (Shot from a cross), 17-20 (Volley), 21-24 (Dribble (long)), 25-28 (Dribble (short)), 29-32 (Dribble (straight)), 33-36 (Juggling)
@@ -48,7 +48,7 @@ The total number of samples is 288 (= eight players * nine actions * four times)
 
 ![Image 2](EyeTrackingData.png)
 
-## Motion data
+## Motion Data
 - MotionData/Player`<player index>`/S`<sample index>`.txt 
   - `<player index>` : 1-8
   - `<sample index>` : 01-04 (Penalty kick), 05-08 (Free kick), 09-12 (Direct shot), 13-16 (Shot from a cross), 17-20 (Volley), 21-24 (Dribble (long)), 25-28 (Dribble (short)), 29-32 (Dribble (straight)), 33-36 (Juggling)
@@ -64,3 +64,7 @@ The total number of samples is 288 (= eight players * nine actions * four times)
 | Q | World coordinate module's posture data. | 
 | A | Module coordinate accelerated speed. Unit is g. | 
 | W | Module coordinate accelerated speed. Unit is radian per second. | 
+
+## Expert-Novice Level
+- Expert-Novice-Scores : Scores of the expert-novice level (matrix : `<sample index>` * `<player index>`). Each sample was given with scores (four-grade) by 57 persons (more than five years of soccer experience), and then the scores were averaged. In our experiment, samples with more than 2.5 score were labeled as the expert level and samples with less than 2.5 score were labeled as the novice level. 
+
