@@ -6,7 +6,10 @@ Y. Akamatsu, K. Maeda, T. Ogawa, and M. Haseyama, “Classification of Expert-no
 ## Nine Actions in Our Experiment
 ![Image 1](Experiment.png)
 
-Penalty kick
+#### Motion (Penalty kick)
+![Gif 1](Motion_example.gif)
+
+#### Eye tracking (Penalty kick)
 ![Gif 1](Motion_example.gif)
 
 ## Players
