@@ -9,6 +9,8 @@ Y. Akamatsu, K. Maeda, T. Ogawa, and M. Haseyama, “Classification of Expert-no
 ## Players
 
 The total number of samples is 288 (= eight players * nine actions * four times).
+- Player1-4 : Novice players
+- Player5-8 : Expert players (more than 10 years of soccer experience)
 
 |       | # Expert level samples | # Novice level samples | # All samples  |
 | :----: |:------:| :------:| :-----: |
@@ -21,9 +23,6 @@ The total number of samples is 288 (= eight players * nine actions * four times)
 |Player7| 35 | 1 | 36 |
 |Player8| 36 | 0 | 36 |
 |All players| 169 | 119 | 288 |
-
-- Player1-4 : Novice players
-- Player5-8 : Expert players (more than 10 years of soccer experience)
 
 
 ## Eye Tracking Data
