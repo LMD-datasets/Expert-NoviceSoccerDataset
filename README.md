@@ -4,7 +4,7 @@ The dataset for the following paper:
 Y. Akamatsu, K. Maeda, T. Ogawa, and M. Haseyama, “Classification of Expert-novice Level Using Eye Tracking and Motion Data via Conditional Multimodal Variational Autoencoder,” IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2021 (accepted for publication).
 
 ## Nine Actions in Our Experiment
-![Image 1](Experiment.png)
+![Image 1](Images/Experiment.png)
 
 ## Players
 
@@ -51,7 +51,7 @@ The total number of samples is 288 (= eight players * nine actions * four times)
 |pc10, pc11, pc12 (X, Y, Z axis)| Pupil Center (Right eye) | Same as above |
 |pd0, pd1 (Left eye, Right eye)| Pupil Diameter | The pupil diameter is measured in mm and sent separately for each eye. |
 
-![Image 2](EyeTrackingData.png)
+![Image 2](Images/EyeTrackingData.png)
 
 ## Motion Data
 - MotionData/Player`<player index>`/S`<sample index>`.txt 
@@ -60,7 +60,7 @@ The total number of samples is 288 (= eight players * nine actions * four times)
   - S`<sample index>`.txt : Feature values corresponding to timestamp. A text file includes a matrix (timestamp * kinds of features).
 - MotionData/feature_info.csv : Feature names included in motion data. The feature name is represented as `<bone mappings>`-`<feature>`-`<axis>` (see the following figures and table). The feature name corresponds to the column in S`<sample index>`.txt.
 
-![Image 4](MotionData.png)
+![Image 4](Images/MotionData.png)
 
 | `<feature>`| Description | 
 | :---- |:------| 
