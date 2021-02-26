@@ -30,6 +30,12 @@ The total number of samples is 288 (= eight players * nine actions * four times)
 #### Novice player - Penalty kick
 ![Gif 2](Gif/Novice_penalty_kick.gif)
 
+#### Expert player - Juggling
+![Gif 3](Gif/Expert_juggling.gif)
+
+#### Novice player - Juggling
+![Gif 4](Gif/Novice_juggling.gif)
+
 
 ## Eye Tracking Data
 - EyeTrackingData/Player`<player index>`/S`<sample index>`/`<feature>`_vec.csv
@@ -60,7 +66,7 @@ The total number of samples is 288 (= eight players * nine actions * four times)
   - S`<sample index>`.txt : Feature values corresponding to timestamp. A text file includes a matrix (timestamp * kinds of features).
 - MotionData/feature_info.csv : Feature names included in motion data. The feature name is represented as `<bone mappings>`-`<feature>`-`<axis>` (see the following figures and table). The feature name corresponds to the column in S`<sample index>`.txt.
 
-![Image 4](Images/MotionData.png)
+![Image 3](Images/MotionData.png)
 
 | `<feature>`| Description | 
 | :---- |:------| 
