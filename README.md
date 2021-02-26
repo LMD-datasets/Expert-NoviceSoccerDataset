@@ -30,7 +30,8 @@ The total number of samples is 288 (= eight players * nine actions * four times)
 - EyeTrackingData/Player`<player index>`/S`<sample index>`/`<feature>`_vec.csv
   -  `<player index>` : 1-8
   -  `<sample index>` : 01-04 (Penalty kick), 05-08 (Free kick), 09-12 (Direct shot), 13-16 (Shot from a cross), 17-20 (Volley), 21-24 (Dribble (long)), 25-28 (Dribble (short)), 29-32 (Dribble (straight)), 33-36 (Juggling)
-  -  `<feature>` : Feature vectors of eye tracking data are described in the following table.
+  -  `<feature>`_vec.csv : Feature values corresponding to timestamp. Note that the first element of vectors is the number of dimensions of vectors (i.e., the number of timestamps).
+  -  `<feature>` : Features included in eye tracking data are described in the following table.
 
 
 | `<feature>`| Name | Description | 
@@ -48,3 +49,7 @@ The total number of samples is 288 (= eight players * nine actions * four times)
 ![Image 2](EyeTrackingData.png)
 
 ## Motion data
+- MotionData/Player`<player index>`/S`<sample index>`.txt 
+  - `<player index>` : 1-8
+  - `<sample index>` : 01-04 (Penalty kick), 05-08 (Free kick), 09-12 (Direct shot), 13-16 (Shot from a cross), 17-20 (Volley), 21-24 (Dribble (long)), 25-28 (Dribble (short)), 29-32 (Dribble (straight)), 33-36 (Juggling)
+  - S`<sample index>`.txt : 
