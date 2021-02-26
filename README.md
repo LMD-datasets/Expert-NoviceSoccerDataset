@@ -48,13 +48,16 @@ The total number of samples is 288 (= eight players * nine actions * four times)
 ![Image 2](EyeTrackingData.png)
 
 ## Motion Data
+
+![Image 3](Motion_example.gif)
+
 - MotionData/Player`<player index>`/S`<sample index>`.txt 
   - `<player index>` : 1-8
   - `<sample index>` : 01-04 (Penalty kick), 05-08 (Free kick), 09-12 (Direct shot), 13-16 (Shot from a cross), 17-20 (Volley), 21-24 (Dribble (long)), 25-28 (Dribble (short)), 29-32 (Dribble (straight)), 33-36 (Juggling)
   - S`<sample index>`.txt : Feature values corresponding to timestamp. A text file includes a matrix (timestamp * kinds of features).
 - MotionData/feature_info.csv : Feature names included in motion data. The feature name is represented as `<bone mappings>`-`<feature>`-`<axis>` (see the following figures and table). The feature name corresponds to the column in S`<sample index>`.txt.
 
-![Image 3](MotionData.png)
+![Image 4](MotionData.png)
 
 | `<feature>`| Description | 
 | :---- |:------| 
