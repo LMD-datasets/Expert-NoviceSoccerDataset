@@ -66,5 +66,5 @@ The total number of samples is 288 (= eight players * nine actions * four times)
 | W | Module coordinate accelerated speed. Unit is radian per second. | 
 
 ## Expert-Novice Level
-- Expert-Novice-Scores : Scores of the expert-novice level (matrix : `<sample index>` * `<player index>`). Each sample was given with scores (four-grade) by 57 persons (more than five years of soccer experience), and then the scores were averaged. In our experiment, samples with more than 2.5 score were labeled as the expert level and samples with less than 2.5 score were labeled as the novice level. 
+- Expert-Novice-Scores : Scores of the expert-novice level (matrix : `<sample index>` * `<player index>`, min : 1, max : 4). Each sample was given with scores (four-grade) by 57 persons (more than five years of soccer experience), and then the scores were averaged. In our experiment, samples with more than 2.5 score were labeled as the expert level and samples with less than 2.5 score were labeled as the novice level. 
 
