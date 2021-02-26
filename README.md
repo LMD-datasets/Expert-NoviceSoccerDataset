@@ -6,12 +6,6 @@ Y. Akamatsu, K. Maeda, T. Ogawa, and M. Haseyama, “Classification of Expert-no
 ## Nine Actions in Our Experiment
 ![Image 1](Experiment.png)
 
-#### Motion (Penalty kick)
-![Gif 1](Motion_example.gif)
-
-#### Eye tracking (Penalty kick)
-![Gif 1](Motion_example.gif)
-
 ## Players
 
 The total number of samples is 288 (= eight players * nine actions * four times).
@@ -29,6 +23,12 @@ The total number of samples is 288 (= eight players * nine actions * four times)
 |Player7| 35 | 1 | 36 |
 |Player8| 36 | 0 | 36 |
 |All players| 169 | 119 | 288 |
+
+#### Expert player - Penalty kick
+![Gif 1](Motion_example.gif)
+
+#### Eye tracking (Penalty kick)
+![Gif 1](Motion_example.gif)
 
 
 ## Eye Tracking Data
