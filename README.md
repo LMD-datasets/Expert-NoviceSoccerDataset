@@ -25,10 +25,10 @@ The total number of samples is 288 (= eight players * nine actions * four times)
 |All players| 169 | 119 | 288 |
 
 #### Expert player - Penalty kick
-![Gif 1](Motion_example.gif)
+![Gif 1](Gif/Expert_penalty_kick.gif)
 
-#### Eye tracking (Penalty kick)
-![Gif 1](Motion_example.gif)
+#### Novice player - Penalty kick
+![Gif 2](Gif/Novice_penalty_kick.gif)
 
 
 ## Eye Tracking Data
