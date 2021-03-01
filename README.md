@@ -68,6 +68,8 @@ Each sample was labeled as expert level or novice level as follows.
 
 ![Image 2](Images/EyeTrackingData.png)
 
+Eye tracking data were acquired by [Tobii Pro Glasses 2](https://www.tobiipro.com/product-listing/tobii-pro-glasses-2/).
+
 ## Motion Data
 - MotionData/Player`<player index>`/S`<sample index>`.txt 
   - `<player index>` : 1-8
@@ -84,6 +86,8 @@ Each sample was labeled as expert level or novice level as follows.
 | Q | World coordinate module's posture data. | 
 | A | Module coordinate accelerated speed. Unit is g. | 
 | W | Module coordinate accelerated speed. Unit is radian per second. | 
+
+Motion data were acquired by [PERCEPTION NEURON PRO](https://neuronmocap.com/).
 
 ## Expert-Novice Level
 - Expert-Novice-Scores : Scores of the expert-novice level (matrix : `<sample index>` * `<player index>`, min : 1, max : 4). Each sample was given with scores (four-grade) by 57 persons (more than five years of soccer experience), and then the scores were averaged. In our experiment, samples with more than 2.5 score were labeled as the expert level and samples with less than 2.5 score were labeled as the novice level. 
