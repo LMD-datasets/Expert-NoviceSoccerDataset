@@ -4,7 +4,7 @@ The dataset for the following paper:
 Y. Akamatsu, K. Maeda, T. Ogawa, and M. Haseyama, “Classification of Expert-novice Level Using Eye Tracking and Motion Data via Conditional Multimodal Variational Autoencoder,” IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2021 (accepted for publication).
 
 ## Nine Actions in Our Experiment
-![Image 1](Images/Experiment.png)
+<img src="Images/Experiment.png" width="800px">
 
 ## Players
 
@@ -12,6 +12,7 @@ The total number of samples is 288 (= eight players * nine actions * four times)
 - Player1-4 : Novice players
 - Player5-8 : Expert players (more than 10 years of soccer experience)
 
+Each smaple was labeled as expert level or novice level as follows.
 |       | # Expert level samples | # Novice level samples | # All samples  |
 | :----: |:------:| :------:| :-----: |
 |Player1| 1 | 35 | 36 |
@@ -24,17 +25,17 @@ The total number of samples is 288 (= eight players * nine actions * four times)
 |Player8| 36 | 0 | 36 |
 |All players| 169 | 119 | 288 |
 
-#### Expert player - Penalty kick
-![Gif 1](Gif/Expert_penalty_kick.gif)
+#### Expert level sample - Penalty kick
+<img src="Gif/Expert_penalty_kick.gif" width="600px">
 
-#### Novice player - Penalty kick
-![Gif 2](Gif/Novice_penalty_kick.gif)
+#### Novice level sample - Penalty kick
+<img src="Gif/Novice_penalty_kick.gif" width="600px">
 
-#### Expert player - Juggling
-![Gif 3](Gif/Expert_juggling.gif)
+#### Expert level sample - Juggling
+<img src="Gif/Expert_juggling.gif" width="600px">
 
-#### Novice player - Juggling
-![Gif 4](Gif/Novice_juggling.gif)
+#### Novice level sample - Juggling
+<img src="Gif/Novice_juggling.gif" width="600px">
 
 
 ## Eye Tracking Data
