@@ -33,6 +33,12 @@ Each sample was labeled as expert level or novice level as follows.
 #### Novice level sample - Penalty kick
 <img src="Gif/Novice_penalty_kick.gif" width="600px">
 
+#### Expert level sample - Dribble (short)
+<img src="Gif/Expert_dribble.gif" width="600px">
+
+#### Novice level sample - Dribble (short)
+<img src="Gif/Novice_dribble.gif" width="600px">
+
 #### Expert level sample - Juggling
 <img src="Gif/Expert_juggling.gif" width="600px">
 
