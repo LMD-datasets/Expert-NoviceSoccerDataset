@@ -12,7 +12,7 @@ The total number of samples is 288 (= eight players * nine actions * four times)
 - Player1-4 : Novice players
 - Player5-8 : Expert players (more than 10 years of soccer experience)
 
-Each smaple was labeled as expert level or novice level as follows.
+Each sample was labeled as expert level or novice level as follows.
 |       | # Expert level samples | # Novice level samples | # All samples  |
 | :----: |:------:| :------:| :-----: |
 |Player1| 1 | 35 | 36 |
@@ -24,6 +24,8 @@ Each smaple was labeled as expert level or novice level as follows.
 |Player7| 35 | 1 | 36 |
 |Player8| 36 | 0 | 36 |
 |All players| 169 | 119 | 288 |
+
+## Examples of Expert and Novice Level Samples
 
 #### Expert level sample - Penalty kick
 <img src="Gif/Expert_penalty_kick.gif" width="600px">
