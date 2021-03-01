@@ -89,6 +89,8 @@ Eye tracking data were acquired by [Tobii Pro Glasses 2](https://www.tobiipro.co
 
 Motion data were acquired by [PERCEPTION NEURON PRO](https://neuronmocap.com/).
 
+Since Player5 is the left-footed player (the other players are right-footed players), we used the motion data that were horizontally flipped in our experiment.
+
 ## Expert-Novice Level
 - Expert-Novice-Scores : Scores of the expert-novice level (matrix : `<sample index>` * `<player index>`, min : 1, max : 4). Each sample was given with scores (four-grade) by 57 persons (more than five years of soccer experience), and then the scores were averaged. In our experiment, samples with more than 2.5 score were labeled as the expert level and samples with less than 2.5 score were labeled as the novice level. 
 
