@@ -49,7 +49,7 @@ Each sample was labeled as expert level or novice level as follows.
 ## Eye Tracking Data
 - EyeTrackingData/Player`<player index>`/S`<sample index>`/`<feature>`_vec.csv
   -  `<player index>` : 1-8
-  -  `<sample index>` : 01-04 (Penalty kick), 05-08 (Free kick), 09-12 (Direct shot), 13-16 (Shot from a cross), 17-20 (Volley), 21-24 (Dribble (long)), 25-28 (Dribble (short)), 29-32 (Dribble (straight)), 33-36 (Juggling)
+  -  `<sample index>` : 01-04 (Penalty kick), 05-08 (Free kick), 09-12 (Direct shot), 13-16 (Shot from a cross), 17-20 (Volley), 21-24 (Dribble (long)), 25-28 (Dribble (straight)), 29-32 (Dribble (short)), 33-36 (Juggling)
   -  `<feature>`_vec.csv : Feature values corresponding to timestamp. A CSV file includes a vector (timestamp * 1). Note that the first element of the vector is the dimension of vector (i.e., the number of timestamps).
   -  `<feature>` : Features included in eye tracking data (see the following table).
 
