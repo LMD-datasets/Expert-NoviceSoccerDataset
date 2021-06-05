@@ -1,7 +1,7 @@
 # Expert-Novice Soccer Dataset
 
-The dataset for the following paper:
-Y. Akamatsu, K. Maeda, T. Ogawa, and M. Haseyama, “Classification of Expert-novice Level Using Eye Tracking and Motion Data via Conditional Multimodal Variational Autoencoder,” [IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2021](https://2021.ieeeicassp.org/) (accepted for publication).
+The dataset for the following paper in IEEE ICASSP 2021:
+Classification of Expert-novice Level Using Eye Tracking and Motion Data via Conditional Multimodal Variational Autoencoder[https://ieeexplore.ieee.org/abstract/document/9414361]
 
 ## Nine Actions in Our Experiment
 <img src="Images/Experiment.png" width="800px">
