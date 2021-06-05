@@ -1,7 +1,20 @@
 # Expert-Novice Soccer Dataset
 
 The dataset for the following paper in IEEE ICASSP 2021:
-Classification of Expert-novice Level Using Eye Tracking and Motion Data via Conditional Multimodal Variational Autoencoder[https://ieeexplore.ieee.org/abstract/document/9414361]
+> [Classification of Expert-novice Level Using Eye Tracking and Motion Data via Conditional Multimodal Variational Autoencoder](https://ieeexplore.ieee.org/abstract/document/9414361)
+
+# Cite
+Please cite the following papers if you want to use this dataset in your work.
+```
+@inproceedings{akamatsu2021classification,
+  title={Classification of Expert-Novice Level Using Eye Tracking And Motion Data via Conditional Multimodal Variational Autoencoder},
+  author={Akamatsu, Yusuke and Maeda, Keisuke and Ogawa, Takahiro and Haseyama, Miki},
+  booktitle={ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={1360--1364},
+  year={2021},
+  organization={IEEE}
+}
+```
 
 ## Nine Actions in Our Experiment
 <img src="Images/Experiment.png" width="800px">
