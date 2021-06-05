@@ -11,8 +11,7 @@ Please cite the following papers if you want to use this dataset in your work.
   author={Akamatsu, Yusuke and Maeda, Keisuke and Ogawa, Takahiro and Haseyama, Miki},
   booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
   pages={1360--1364},
-  year={2021},
-  organization={IEEE}
+  year={2021}
 }
 ```
 
